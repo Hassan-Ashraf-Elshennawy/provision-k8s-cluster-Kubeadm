@@ -4,12 +4,12 @@ Follow this documentation to set up a Kubernetes cluster on __Oracle-8__.
 ## Assumptions
 |Role|FQDN|IP|OS|RAM|CPU|
 |----|----|----|----|----|----|
-|Master|master.example.com|172.16.16.100|Oracle 8|2G|2|
-|Worker|worker.example.com|172.16.16.101|Oracle 8|1G|1|
+|Master|master.example.com|Your Mchine ip|Oracle 8|2G|2|
+|Worker|worker.example.com|Your Mchine ip|Oracle 8|1G|1|
 
 
 
-## On both Kmaster and Kworker
+## On both master and worker
 Perform all the commands as root user unless otherwise specified
 
 The purpose of this file is to specify kernel modules  that should be loaded automatically at boot time.
