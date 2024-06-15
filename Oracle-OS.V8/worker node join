@@ -1,1 +1,6 @@
-#run the join command with sudo 
+## worker Node 
+### Cluster join command
+
+
+Join the cluster
+Use the output from kubeadm token create command from the master server and run here.
